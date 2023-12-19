@@ -1,0 +1,9 @@
+  /* STACKED GRID ITEMS */
+  #hero .hero-container,
+  #home-articles .articles-container,
+  #main-footer .footer-container {
+    grid-template-columns: 1fr;
+  }
+  #main-footer .footer-container > *:last-child {
+    grid-column: 1;
+  }
